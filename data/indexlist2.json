@@ -1,0 +1,60 @@
+{
+  "indexlist2": [
+    {"name": "美食","url":"img/dcfl01.png"},
+    {"name": "早餐","url":"img/dcfl02.png"},
+    {"name": "跑腿代购","url":"img/dcfl03.png"},
+    {"name": "汉堡披萨","url":"img/dcfl04.png"},
+    {"name": "甜品饮品","url":"img/dcfl05.png"},
+    {"name": "速食简餐","url":"img/dcfl06.png"},
+    {"name": "地方小吃","url":"img/dcfl07.png"},
+    {"name": "米粉面馆","url":"img/dcfl08.png"}
+  ],
+  "indexlist3": [
+    {"name":"饺子","url": "img/sj01.png","difang": "万家饺子（软件园E18店）","sell": "4.9 月售345单","waimai":"蜂鸟专送","price":"165;15起送 | 165;3配送"
+    ,"time": "3.22km | 30分钟","type":"各种饺子","shoudan": "饿了么新用户首单立减9元","huodong": "2个活动","qian": "特价商品5元起"},
+
+    {"name":"饺子","url": "img/sj02.png","difang": "小锅饭豆腐馆（全运店）","sell": "4.9 月售345单","waimai":"蜂鸟专送","price":"165;15起送 | 165;3配送"
+    ,"time": "3.22km | 30分钟","type":"各种饺子","shoudan": "饿了么新用户首单立减9元","huodong": "2个活动","qian": "特价商品5元起"},
+
+    {"name":"饺子","url": "img/sj03.png","difang": "麦当劳麦乐送（全运路店）","sell": "4.9 月售345单","waimai":"蜂鸟专送","price":"165;15起送 | 165;3配送"
+    ,"time": "3.22km | 30分钟","type":"各种饺子","shoudan": "饿了么新用户首单立减9元","huodong": "2个活动","qian": "特价商品5元起"},
+
+    {"name":"饺子","url": "img/sj04.png","difang": "米村拌饭（浑南店）","sell": "4.9 月售345单","waimai":"蜂鸟专送","price":"165;15起送 | 165;3配送"
+    ,"time": "3.22km | 30分钟","type":"各种饺子","shoudan": "饿了么新用户首单立减9元","huodong": "2个活动","qian": "特价商品5元起"},
+
+    {"name":"饺子","url": "img/sj05.png","difang": "申记串道（中海康城店））","sell": "4.9 月售345单","waimai":"蜂鸟专送","price":"165;15起送 | 165;3配送"
+    ,"time": "3.22km | 30分钟","type":"各种饺子","shoudan": "饿了么新用户首单立减9元","huodong": "2个活动","qian": "特价商品5元起"}
+  ],
+  "goodslist":[
+    {"shangjia": "万家饺子（软件园E18店）","url": "location.href='businessInfo.html","img":"img/sj01.png","sel":"165;15起送 | 165;3配送",
+      "type":"各种饺子炒菜"},
+
+    {"shangjia": "小锅饭豆腐馆（全运店）","url": "location.href='businessInfo.html","img":"img/sj02.png","sel":"165;15起送 | 165;3配送",
+      "type":"特色美食"},
+
+    {"shangjia": "麦当劳麦乐送（全运路店）","url": "location.href='businessInfo.html","img":"img/sj03.png","sel":"165;15起送 | 165;3配送",
+      "type":"汉堡薯条"},
+
+    {"shangjia": "米村拌饭（浑南店）","url": "location.href='businessInfo.html","img":"img/sj04.png","sel":"165;15起送 | 165;3配送",
+      "type":"各种炒菜拌饭"},
+
+    {"shangjia": "申记串道（中海康城店）","url": "location.href='businessInfo.html","img":"img/sj05.png","sel":"165;15起送 | 165;3配送",
+      "type":"烤串炸串"},
+
+    {"shangjia": "半亩良田排骨米饭","url": "location.href='businessInfo.html","img":"img/sj06.png","sel":"165;15起送 | 165;3配送",
+      "type":"排骨米饭套餐"},
+
+    {"shangjia": "茶兮鲜果饮品（国际软件园店）","url": "location.href='businessInfo.html","img":"img/sj07.png","sel":"165;15起送 | 165;3配送",
+      "type":"甜品饮品"},
+
+    {"shangjia": "唯一水果捞（软件园E18店","url": "location.href='businessInfo.html","img":"img/sj08.png","sel":"165;15起送 | 165;3配送",
+      "type":"新鲜水果"},
+
+    {"shangjia": "满园春饼（全运路店）","url": "location.href='businessInfo.html","img":"img/sj09.png","sel":"165;15起送 | 165;3配送",
+      "type":"各种春饼"}
+  ]
+}
+
+
+
+

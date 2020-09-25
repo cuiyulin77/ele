@@ -1,0 +1,634 @@
+.topBannerTemp{
+    background-color: #007bff;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.addr{
+    width: 90%;
+    height: 75px;
+    margin-top: 20px;
+    position: fixed;
+    top:5px;
+    left: 120px;
+    background-color: #007bff;
+    width: 100%;
+}
+.addr input{
+    border-radius: 10px;
+}
+.banner{
+    width: 95%;
+    margin: 0 auto;
+    height: 29vw;
+    background-image: url(../img/index_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+}
+.banner h3{
+    font-size: 4.2vw;
+    margin-bottom: 1.2vw;
+}
+.banner p{
+    font-size: 3.4vw;
+    color: #666;
+    margin-bottom: 2.4vw;
+}
+.banner a{
+    font-size: 3vw;
+    color: #C79060;
+    font-weight: 700;
+}
+.supermember{
+    margin-top: 100px;
+    width: 95%;
+    margin: 0 auto;
+    height: 11.5vw;
+    background-color: #FEEDC1;
+    margin-top: 1.3vw;
+    border-radius: 2px;
+    color: #644F1B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.supermember .left{
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+    user-select: none;
+}
+.supermember .left img{
+    width: 6vw;
+    height: 6vw;
+    margin-right: 2vw;
+}
+.supermember .left h3{
+    font-size: 4vw;
+    margin-right: 2vw;
+}
+.supermember .left p{
+    font-size: 3vw;
+}
+.supermember .right{
+    font-size: 3vw;
+    margin-right: 4vw;
+    cursor: pointer;
+}
+.recommendtype{
+    margin-top:250px;
+    /*margin-left: 60px;*/
+    list-style-type: none;
+    background-color: #9fcdff;
+    height: 150px;
+    font-size: 20px;
+}
+.yongxin{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 100px;}
+.business{
+    width: 100%;
+    margin-bottom: 14vw;
+}
+.business li{
+    width: 100%;
+    box-sizing: border-box;
+    /*padding: 2.5vw;*/
+    user-select: none;
+    border-bottom: solid 1px #DDD;
+    display: flex;
+}
+.business li img{
+    margin-left: 60px;
+    width: 18vw;
+    height: 18vw;
+}
+.business li business-info{
+    margin-left: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+.business li .business-info .business-info-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.business li .business-info .business-info-h h3{
+    font-size: 4vw;
+    color: #333;
+}
+.business li .business-info .business-info-h .business-info-like{
+    width: 1.6vw;
+    height: 3.4vw;
+    background-color: #666;
+    color: #fff;
+    font-size: 4vw;
+    margin-right: 4vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business li .business-info .business-info-star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+    font-size: 3.1vw;
+}
+.business li .business-info .business-info-star .business-info-star-left{
+    display: flex;
+    align-items: center;
+}
+.business li .business-info .business-info-star .business-info-star-left .fa-star{
+    color: #FEC80E;
+    margin-right: 0.5vw;
+}
+.business li .business-info .business-info-star .business-info-star-left p{
+    color: #666;
+    margin-left: 1vw;
+}
+.business li .business-info .business-info-star .business-info-star-right{
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 2.4vw;
+    border-radius: 2px;
+    padding: 0 0.6vw;
+}
+.business li .business-info .business-info-delivery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+
+    color: #666;
+    font-size: 3.1vw;
+}
+.business li .business-info .business-info-explain{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+.business li .business-info .business-info-explain div{
+    border: solid 1px #DDD;
+    font-size: 2.8vw;
+    color: #666;
+    border-radius: 3px;
+    padding: 0 0.1vw ;
+}
+.business li .business-info .business-info-promotion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.8vw;
+}
+.business li .business-info .business-info-promotion .business-info-promotion-left{
+    display: flex;
+    align-items: center;
+}
+.business li .business-info .business-info-promotion .business-info-promotion-left .business-info-promotion-left-incon{
+    width: 4vw;
+    height: 4vw;
+    background-color: #70BC46;
+    border-radius: 3px;
+    font-size: 3vw;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business li .business-info .business-info-promotion .business-info-promotion-left p{
+    color: #666;
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+.business li .business-info .business-info-promotion .business-info-promotion-right{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vw;
+    color: #999;
+}
+.business li .business-info .business-info-promotion .business-info-promotion-right p{
+    margin-right: 2vw;
+}
+.business1{
+    width: 100%;
+    margin-top: 12vw;
+    margin-bottom: 14vw;
+}
+.business1 li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    border-bottom: solid 1px #DDD;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.business1 li .business1-img{
+    position: relative;
+}
+.business1 li .business1-img img{
+    width: 20vw;
+    height: 20vw;
+}
+.business1 li .business1-img .business1-img-quantity{
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    color: #fff;
+    font-size: 3.6vw;
+    border-radius: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -1.5vw;
+    top: -1.5vw;
+}
+.business1 li .business1-info{
+    margin-left: 3vw;
+}
+.business1 li .business1-info h3{
+    font-size: 3.8vw;
+    color: #555;
+}
+.business1 li .business1-info p{
+    font-size: 3vw;
+    color: #888;
+    margin-top: 2vw;
+}
+.header{
+    width: 100%;
+    height: 12vw;
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 4.8vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-logo{
+    width: 100%;
+    height: 35vw;
+    margin-top: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-logo img{
+    width: 40vw;
+    height: 30vw;
+    border-radius: 5px;
+}
+.why-info{
+    width: 100%;
+    height: 20vw;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-info h1{
+    font-size: 5vw;
+}
+.why-info p{
+    font-size: 3vw;
+    color: #666;
+    margin-top: 1vw;
+}
+.food{
+    width: 100%;
+    margin-bottom: 14vw;
+}
+.food li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    user-select: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food li .food-left{
+    display: flex;
+    align-items: center;
+}
+.food li .food-left img{
+    width: 20vw;
+    height: 20vw;
+}
+.food li .food-left .food-left-info{
+    margin-left: 3vw;
+}
+.food li .food-left .food-left-info h3{
+    font-size: 3.8vw;
+    color: #555;
+}
+.food li .food-left .food-left-info p{
+    font-size: 3vw;
+    color: #888;
+    margin-top: 2vw;
+}
+.food li .food-right{
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food li .food-right .fa-minus-circle{
+    font-size: 5.5vw;
+    color: #999;
+    cursor: pointer;
+}
+.food li .food-right p{
+    font-size: 3.6vw;
+    color: #333;
+}
+.food li .food-right .fa-plus-circle{
+    font-size: 5.5vw;
+    color: #0097EF;
+    cursor: pointer;
+}
+.cart{
+    width: 100%;
+    height: 14vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+.cart .cart-left{
+    flex: 2;
+    background-color: #505051;
+    display: flex;
+}
+.cart .cart-left .cart-left-icon{
+    width: 16vw;
+    height: 16vw;
+    box-sizing: border-box;
+    border: solid 1.6vw #444;
+    border-radius: 8vw;
+    background-color: #3190E8;
+    font-size: 7vw;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -4vw;
+    margin-left: 3vw;
+
+    position: relative;
+}
+.cart .cart-left .cart-left-icon-quantity{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2.5vw;
+    background-color: red;
+    color: #fff;
+    font-size: 3.6vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: -1.5vw;
+    top: -1.5vw;
+}
+.cart .cart-left .cart-left-info p:first-child{
+    font-size: 4.5vw;
+    color: #fff;
+    margin-top: 1vw;
+}
+.cart .cart-left .cart-left-info p:last-child{
+    font-size: 2.8vw;
+    color: #AAA;
+}
+.cart .cart-right{
+    flex: 1;
+}
+.cart .cart-right .cart-right-item{
+    width: 100%;
+    height: 100%;
+    background-color: #38CA73;
+    color: #fff;
+    font-size: 4.5vw;
+    font-weight: 700;
+    user-select: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 12vw;
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 4.8vw;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-top: 12vw;
+    box-sizing: border-box;
+    padding: 4vw 4vw 0;
+
+    font-size: 4vw;
+    font-weight: 300;
+    color: #999;
+}
+.order-info{
+    box-sizing: border-box;
+    padding: 4vw;
+    font-size: 4vw;
+    color: #666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-info p:last-child{
+    color: orangered;
+}
+.order-detailet{
+    width: 100%;
+}
+.order-detailet li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vw 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-detailet li p{
+    font-size: 3vw;
+    color: #666;
+}
+.payment-type{
+    width: 100%;
+}
+.payment-type li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-type li img{
+    width: 33vw;
+    height: 8.9vw;
+}
+.payment-type li .fa-check-circle{
+    font-size: 5vw;
+    color: #38CA73;
+}
+.payment-button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4vw;
+}
+.payment-button button{
+    width: 100%;
+    height: 10vw;
+    border: none;
+    /*去掉外轮廓线*/
+    outline: none;
+    border-radius: 4px;
+    background-color: #38CA73;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.footer li p{
+    font-size: 2.8vw;
+}
+.footer li i{
+    font-size: 5vw;
+}
+.order-detailed{
+    width: 100%;
+}
+.order-detailed li{
+    width: 100%;
+    height: 16vw;
+    box-sizing: border-box;
+    padding: 3vw;
+    color: #666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-detailed li .order-detailed-left{
+    display: flex;
+    align-items: center;
+}
+.order-detailed li .order-detailed-left img{
+    width: 10vw;
+    height: 10vw;
+}
+.order-detailed li .order-detailed-left p{
+    font-size: 3.5vw;
+    margin-left: 3vw;
+}
+.order-detailed li p{
+    font-size: 3.5vw;
+}
+.order-deliveryfee{
+    width: 100%;
+    height: 16vw;
+    box-sizing: border-box;
+    padding: 3vw;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3.5vw;
+}
+.total{
+    width: 100%;
+    height: 14vw;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+}
+.total .total-left{
+    flex: 2;
+    background-color: #505051;
+    color: #fff;
+    font-size: 4.5vw;
+    font-weight: 700;
+    user-select: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total .total-right{
+    flex: 1;
+    background-color: #38CA73;
+    color: #fff;
+    font-size: 4.5vw;
+    font-weight: 700;
+    user-select: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
